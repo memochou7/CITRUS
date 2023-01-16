@@ -8,7 +8,3 @@ Important things to note is that you need to change the IP address in sibeliusPr
 Configuration-wise, everything should work out of the box. Ideally, prevent directory browsing in the server settings so that unauthorised users can't simply skip to the edit page. 
 
 old_versions simply contain old versions, in case anyone wants to replicate our system and do troubleshooting. beethovenV4 is a version that is pure Arduino with no database. You can test the pumps & valves with it. bachV7 is not dependent on a server for a database. It relies on a Excel spreadsheet and macro, which communicates with the Arduino via serial. 
-
-Disclaimer - The code might not be optimal, since we wrote it not having taught the languages themselves. The PHP code was not extensively tested for bugs, thus funny login names etc. might cause the pages to fail.
-
-The PHP code was written by two of us then merged, so there might be a drastic change in coding style, and functions that do similar things. Most of the Arduino code in void loop() is written by me to optimise loop speed(i.e. responsiveness). Due to this, there might be some odd pieces of code, but they should be commented well enough.
