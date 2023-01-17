@@ -3,7 +3,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/CITRUS/config/loginConfig.php';
 	
 	if(isset($_POST['Submit'])){
 		
-		$logins = array($storeduser => 'iamout',$storedpass => 'password1','username2' => 'password2');
+		$logins = array($storeduser => $storedpass, 'username1' => 'password1','username2' => 'password2');
 		
 		$Username = isset($_POST['Username']) ? $_POST['Username'] : '';
 		$Password = isset($_POST['Password']) ? $_POST['Password'] : '';
