@@ -23,7 +23,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/CITRUS/config/loginConfig.php';
 <head>
 </style>
 <meta charset="utf-8">
-<title>bozo bozo bozo bozo</title>
+<title>login</title>
 <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
