@@ -9,4 +9,4 @@ Important things to note is that you need to change the IP address in sibeliusPr
 
 Configuration-wise, everything should work out of the box. Ideally, set up your server so that unauthorised users can't just directly go to editDB.php.
 
-Arduino/old_versions simply contain old versions, in case anyone wants to replicate our system and do troubleshooting. beethovenV4 is a version that is pure Arduino with no database. You can test the pumps & valves with it. bachV7 has a database, but does not depend on a server. It relies on a Excel spreadsheet and macro, which communicates with the Arduino via serial. 
+Arduino/old_versions simply contain old versions, in case anyone wants to replicate our system and do troubleshooting. beethovenV4 is a version that is pure Arduino with no database. You can test the pumps & valves with it.
